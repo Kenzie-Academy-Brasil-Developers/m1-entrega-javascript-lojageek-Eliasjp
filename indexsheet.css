@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    max-width: 1920px;
+    max-height: 1080px;
+    overflow-x: auto;
+}
+
+/* Header */
+
+header{
+    width: 100%;
+    height: 100%;
+    max-width: 1920px;
+    max-height: 1080px;
+    display: inline-block;
+    display: flex;
+    margin-top: 3px;
+    vertical-align: auto;
+}
+
+img.logo{
+    width: 250px;
+    height: 70px;
+    margin-right: 80em;
+}
+
+button {
+    font-size: 20px;
+}
+
+button.buttonProducts{
+    width: 150px;
+    height: 40px;
+    margin-top: 15px;
+    background-color: #0a98fe1a;
+    border-width: 0;
+    border-radius: 5%;
+}
+
+button.buttonContatos{
+    width: 150px;
+    height: 40px;
+    margin-top: 15px;
+    margin-left: 10px;
+    background-color: #0a98fe1a;
+    border-width: 0;
+    border-radius: 5%;
+}
+
+button.buttonProducts:hover {
+    transition: 0.3s;
+    background-color: #0a98fe;
+}
+
+button.buttonContatos:hover {
+    transition: 0.3s;
+    background-color: #0a98fe;  
+}
+
+/* Main */
+
+h2 {
+    font-size: 20px;
+    color: #1B1B1B;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+ul {
+    display: flex;
+}
+
+li.cards {
+
+}
+
+div.cardInfo{
+    width: 207px;
+    height: 275px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(219, 219, 219);
+    border-radius: 5%;
+    margin: 0px 10px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+}
+
+div.cardInfo:hover{
+    transition: 0.5s;
+    border-color: #464646;
+}
+
+img.imgCards {
+    display: block;
+    margin: 0 auto;
+    border-width: 1px 1px 1px 1px;
+    border-style: solid;
+    border-color: #bebebe;
+    border-radius: 5px 5px 0px 0px;
+    width: 100%;
+    height: 68%;
+}
+
+h3.h3Card {
+    margin-top: 7%;
+    font-size: 20px;
+}
+
+p.pCard {
+    color: #868383;
+    font-size: 16px;
+    margin-top: 11%;
+}
